@@ -1,0 +1,461 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background-color: rgb(0, 0, 0);
+  /* background-image: url(Images/stars.jpg); */
+  color: black;
+  font-family: "inter", sans-serif;
+  font-size: 17px;
+}
+
+h1 {
+  padding-left: 40px;
+  color: #ffffff;
+}
+
+p {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+a {
+  color: #000143
+}
+
+a visited {
+  color: #550047
+}
+
+.bodysection {
+  width: 85%;
+  max-width: 800px;
+  margin: 30px;
+  padding: 20px;
+  background-color: #535A92;
+  float: left;
+}
+
+.centersection {
+  width: 90%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+}
+
+.fatcentersection {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  margin-top: -20px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.outercenter {
+  text-align: center;
+}
+
+.imageright {
+  float: right;
+  width: 48%;
+  min-width: 280px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.imageleft {
+  float: left;
+  width: 48%;
+  min-width: 280px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.outerlightcurve {
+  float: left;
+  width: 540px;
+  height: 500px;
+  padding: 30px;
+  color: white;
+}
+
+.lightcurve-container {
+  display: flex;
+  justify-content: center;
+}
+
+.lightcurve {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.centeredtext {
+  text-align: center;
+}
+
+
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  border: none;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+#cssmenu {
+  height: auto;
+  display: block;
+  border: 1px solid;
+  border-radius: 5px;
+  width: auto;
+  max-width: 818px;
+  /* border-color: #080808; */
+  margin: auto;
+  padding: 0;
+}
+
+#cssmenu>ul {
+  list-style: inside none;
+  margin: 0;
+  padding: 0;
+}
+
+#cssmenu>ul>li {
+  list-style: inside none;
+  float: left;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#cssmenu.align-center>ul {
+  text-align: center;
+}
+
+#cssmenu.align-center>ul>li {
+  float: none;
+  margin-left: -3px;
+}
+
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+
+#cssmenu.align-center>ul>li:first-child>a {
+  border-radius: 0;
+}
+
+#cssmenu>ul>li>a {
+  outline: none;
+  display: block;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "inter", sans-serif;
+  border-right: 1px solid #080808;
+  color: #ffffff;
+  padding: 12px 20px;
+}
+
+#cssmenu>ul>li:first-child>a {
+  border-radius: 5px 0 0 5px;
+}
+
+#cssmenu>ul>li>a:after {
+  content: "";
+  position: absolute;
+  border-right: 0px solid;
+  top: -1px;
+  bottom: -1px;
+  right: -2px;
+  z-index: 99;
+  border-color: #3c3c3c;
+}
+
+#cssmenu ul li.has-sub:hover>a:after {
+  top: 0;
+  bottom: 0;
+}
+
+#cssmenu>ul>li.has-sub>a:before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  right: 6px;
+  border: 5px solid transparent;
+  border-top: 5px solid #ffffff;
+}
+
+#cssmenu>ul>li.has-sub:hover>a:before {
+  top: 19px;
+}
+
+#cssmenu>ul>li.has-sub:hover>a {
+  padding-bottom: 14px;
+  z-index: 999;
+  border-color: #3f3f3f;
+}
+
+#cssmenu ul li.has-sub:hover>ul,
+#cssmenu ul li.has-sub:hover>div {
+  display: block;
+}
+
+#cssmenu>ul>li.has-sub>a:hover,
+#cssmenu>ul>li.has-sub:hover>a {
+  background: #3f3f3f;
+  border-color: #3f3f3f;
+}
+
+#cssmenu ul li>ul,
+#cssmenu ul li>div {
+  display: none;
+  width: auto;
+  position: absolute;
+  top: 38px;
+  background: #3f3f3f;
+  border-radius: 0 0 5px 5px;
+  z-index: 999;
+  padding: 10px 0;
+}
+
+#cssmenu ul li>ul {
+  width: 200px;
+}
+
+#cssmenu ul ul ul {
+  position: absolute;
+}
+
+#cssmenu ul ul li:hover>ul {
+  left: 100%;
+  top: -10px;
+  border-radius: 5px;
+}
+
+#cssmenu ul li>ul li {
+  display: block;
+  list-style: inside none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#cssmenu ul li>ul li a {
+  outline: none;
+  display: block;
+  position: relative;
+  font: 13px "inter", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 8px 20px;
+}
+
+#cssmenu,
+#cssmenu ul ul>li:hover>a,
+#cssmenu ul ul li a:hover {
+  background: #3c3c3c;
+  background: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3c3c3c), color-stop(100%, #222222));
+  background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background: -o-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background: -ms-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background: linear-gradient(top, #3c3c3c 0%, #222222 100%);
+}
+
+#cssmenu>ul>li>a:hover {
+  background: #080808;
+  color: #ffffff;
+}
+
+#cssmenu ul ul a:hover {
+  color: #ffffff;
+}
+
+#cssmenu>ul>li.has-sub>a:hover:before {
+  border-top: 5px solid #ffffff;
+}
+
+
+/* my additions */
+
+header {
+  margin-bottom: 12px;
+  padding-top: 6px;
+  padding-left: 6px;
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #000000;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  font-size: 16;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background 0.3s;
+}
+
+.nav-links a:hover {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+  transform: translate(50%);
+  text-align: center;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  padding-left: 49px;
+  padding-right: 49px;
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgb(0, 0, 0);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  transform: translate(15%);
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-top: 10px;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #000000;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.pageImage {
+
+  position: relative;
+  height: auto;
+}
+
+.index_text {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-weight: bold;
+  font-size: 70px;
+  text-align: left;
+  top: 35%;
+  padding-left: 40px;
+}
+
+.below_index_text {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+  top: 50%;
+  padding-left: 40px;
+}
+
+.image-specific {
+  filter: brightness(70%);
+}
+
+.main_content {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
