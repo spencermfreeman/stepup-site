@@ -116,8 +116,6 @@ a visited {
   text-align: center;
 }
 
-
-
 #cssmenu,
 #cssmenu ul,
 #cssmenu li,
@@ -308,7 +306,6 @@ a visited {
   border-top: 5px solid #ffffff;
 }
 
-
 /* my additions */
 
 header {
@@ -380,12 +377,9 @@ header {
   padding-left: 49px;
   padding-right: 49px;
   font-family: inherit;
-  /* Important for vertical align on mobile phones */
   margin: 0;
-  /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
   color: rgba(255, 255, 255, 0.5);
@@ -413,7 +407,6 @@ header {
   text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #000000;
 }
