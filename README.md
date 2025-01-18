@@ -7,6 +7,28 @@
 <img src="ReadMeVisual/Original.png" alt="Original Image"/>
 
 ## Post Updates:
+<img src="ReadMeVisual/UpdatedHome.png" alt="Updted Image"/>
+
+##  Prior to Updates:
+<img src="ReadMeVisual/OriginalContact.png" alt="Original Image"/>
+
+## Post Updates:
 <img src="ReadMeVisual/Updated.png" alt="Updted Image"/>
 
+##  Prior to Updates:
+<img src="ReadMeVisual/OriginalPublications.png" alt="Original Image"/>
 
+## Post Updates:
+<img src="ReadMeVisual/UpdatedPublications.png" alt="Updted Image"/>
+
+##  Prior to Updates:
+<img src="ReadMeVisual/OriginalLC.png" alt="Original Image"/>
+
+## Post Updates:
+<img src="ReadMeVisual/UpdatedLC.png" alt="Updted Image"/>
+
+##  Prior to Updates:
+<img src="ReadMeVisual/OriginalConditions.png" alt="Original Image"/>
+
+## Post Updates:
+<img src="ReadMeVisual/UpdatedConditions.png" alt="Updted Image"/>
