@@ -33,6 +33,10 @@
               <li><a href="Lightcurves.html">Lightcurves</a></li>
               <li><a href="Conditions.html">Conditions</a></li>
           </ul>
+          <!-- Hamburger button -->
+          <div class="hamburger" onclick="toggleMenu()">
+            &#9776; <!-- Hamburger icon -->
+        </div>
       </div>
   </nav>
   <section class="pageImage">
@@ -87,4 +91,10 @@
          <pre> ©2019 STEPUP </pre>
       </footer>
    </body>
+   <script>
+      function toggleMenu() {
+          const navbar = document.querySelector('.nav-container');
+          navbar.classList.toggle('active');
+      }
+  </script>
 </html>

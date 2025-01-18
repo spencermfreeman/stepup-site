@@ -33,16 +33,18 @@
                 <li><a href="Lightcurves.html">Lightcurves</a></li>
                 <li><a href="Conditions.html">Conditions</a></li>
             </ul>
+            <!-- Hamburger button -->
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776; <!-- Hamburger icon -->
+            </div>
         </div>
     </nav>
     <section class="pageImage">
         <div class="image-specific">
             <img src="Images/Observatory1-2.png" width="100%" height="auto">
         </div>
-        <div class="index_text">
-            STEPUP
-        </div>
-        <div class="below_index_text">Survey of Transiting Exoplanets<br>(University of Pittsburgh)</div>
+        <div class="index_text">STEPUP</div>
+        <div class="below_index_text">Survey of Transiting Extrasolar Planets<br>(University of Pittsburgh)</div>
     </section>
     <h1>Overview</h1>
     <p>STEPUP, the Survey of Transiting Extrasolar Planets at the University of Pittsburgh,
@@ -56,10 +58,18 @@
         has joined the TESS Follow-up Observing Program (TFOP) to conduct follow-up observations
         for the Transiting Exoplanet Survey Satellite mission to confirm TESS detections.</p>
     <div style="clear:both;"> </div>
+    <div class="gif">
+        <img src="Images/LowResLightcurve.gif" alt="gif">
+    </div>
     <br>
     <footer style="color: white; padding-left: 30px">
         <pre> ©2019 STEPUP </pre>
     </footer>
 </body>
-
+<script>
+    function toggleMenu() {
+        const navbar = document.querySelector('.nav-container');
+        navbar.classList.toggle('active');
+    }
+</script>
 </html>

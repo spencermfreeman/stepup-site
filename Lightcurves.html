@@ -34,6 +34,10 @@
             <li><a href="Lightcurves.html">Lightcurves</a></li>
             <li><a href="Conditions.html">Conditions</a></li>
          </ul>
+         <!-- Hamburger button -->
+         <div class="hamburger" onclick="toggleMenu()">
+            &#9776; <!-- Hamburger icon -->
+        </div>
       </div>
    </nav>
 
@@ -42,10 +46,14 @@
          <img src="Images/light-curve-bkg.jpg" width="100%" height="auto" alt="">
       </div>
       <div class="index_text">Light Curves</div>
-      <div class="below_index_text">
-         <br><br>Processed using AstroImageJ and Exotic<br>(Transit Data Linked to Curves)
-      </div>
    </section>
+
+   <h1>
+      Processed using AstroImageJ and Exotic
+   </h1>
+   <h2>
+      (Transit Data Linked to Curves)
+   </h2>
 
    <div class="image-container">
       <div class="outerlightcurve">
@@ -66,7 +74,7 @@
             </a>
          </div>
          <div class="centeredtext">
-            <p>Observer: Spencer Freeaman</p>
+            <p>Observer: Spencer Freeman</p>
          </div>
       </div>
 
@@ -130,5 +138,10 @@
       <pre> ©2019 STEPUP </pre>
    </footer>
 </body>
-
+<script>
+   function toggleMenu() {
+       const navbar = document.querySelector('.nav-container');
+       navbar.classList.toggle('active');
+   }
+</script>
 </html>
