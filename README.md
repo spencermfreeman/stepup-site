@@ -13,7 +13,7 @@
 <img src="ReadMeVisual/OriginalContact.png" alt="Original Image"/>
 
 ## Post Updates:
-<img src="ReadMeVisual/Updated.png" alt="Updted Image"/>
+<img src="ReadMeVisual/UpdatedContact.png" alt="Updted Image"/>
 
 ##  Prior to Updates:
 <img src="ReadMeVisual/OriginalPublications.png" alt="Original Image"/>
